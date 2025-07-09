@@ -11,7 +11,7 @@ function handleClick() {
         tableShown = !tableShown;
     }
     else {
-        let tableString = '<table> <caption>Таблиця Пифагора</caption> <tr><th> </th>';
+        let tableString = '<table> <caption>Таблиця Піфагора</caption> <tr><th> </th>';
         // forming the first row (header)
         for (let i = 1; i <= NUMBER_OF_CELLS; i++) {
             tableString += `<th> ${i} </th>`;
